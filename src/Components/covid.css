@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background: rgb(24, 24, 24);
+}
+
+section{
+    width: 100%;
+    height: 100%;
+}
+
+.title h2,h5{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+.title{
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards{
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    height: 200px;
+    background: #fff;
+    margin: 30px;
+    transition: .5s;
+}
+
+.card p{
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.card span{
+    font-size: 14px;
+    margin-right: 5px;
+}
+
+.card .main-title{
+    font-size: 1.4em;
+    text-shadow: black -1px 3px 2px;
+}
+
+.card .main-content{
+    margin-top: 20px;
+    font-size: 3em;
+    font-weight: 600;
+    text-shadow: black 0px 4px 11px;
+}
+.card .main-title{
+    margin-top: 10px;
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+.card:nth-child(1){
+    background: rgb(25, 125, 207);
+}
+.card:nth-child(2){
+    background: rgb(23, 189, 23);
+}
+.card:nth-child(3){
+    background: rgb(206, 139, 16);
+}
+.card:nth-child(4){
+    background: rgb(233, 60, 60);
+}
+.card:nth-child(5){
+    background: rgb(29, 78, 100);
+}
+.card:nth-child(6){
+    background: rgb(155, 126, 82);
+}
+
+.card:nth-child(6) .main-content{
+    margin-top: 10px;
+}
